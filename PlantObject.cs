@@ -1,6 +1,6 @@
 ﻿namespace GasProcessingPlant
 {
-    // Класс обеспечивает изменение состояний связанных объектов при добавлении нового
+    // Базовый класс для объектов завода
     abstract class PlantObject
     {
         public string Name { get; set; }
@@ -29,6 +29,7 @@
                 t.State = level;
         }
 
+        // Возвращает имя объекта
         public override string ToString()
         {
             return Name;
