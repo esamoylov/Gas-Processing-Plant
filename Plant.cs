@@ -62,7 +62,5 @@ namespace GasProcessingPlant
         {
             return Infrastructure.parameters;
         }
-
-        // Комментарий для git
     }
 }
